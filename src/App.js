@@ -7,6 +7,7 @@ import Body from "./Components/Body/Body";
 import Navbar from "./Components/Navbar/Navbar";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { Outlet } from "react-router";
 library.add(faBookOpenReader, faBookBookmark);
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Navbar />
       <Sidebar />
       <Body>
-        <h1>content</h1>
+        <Outlet />
       </Body>
     </div>
   );

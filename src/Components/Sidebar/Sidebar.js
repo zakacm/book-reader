@@ -14,12 +14,12 @@ export default function Sidebar() {
           <SidebarItem
             icon={<FontAwesomeIcon icon="fa-solid fa-book-open-reader" />}
             title={"Books"}
-            link={"/books"}
+            link={"/"}
           />
           <SidebarItem
             icon={<FontAwesomeIcon icon="fa-solid fa-book-bookmark" />}
-            title={"Dictionnary"}
-            link={"/dictionnary"}
+            title={"Dictionary"}
+            link={"/dictionary"}
           />
         </ul>
       </div>
